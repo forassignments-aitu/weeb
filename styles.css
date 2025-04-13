@@ -1,0 +1,50 @@
+
+.project-card {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+}
+
+
+.project-card img {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+}
+
+
+.project-card::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul li a {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+footer a[target="_blank"] {
+    color: #ff9800;
+}
+
+.decorative-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: #ff9800;
+}
